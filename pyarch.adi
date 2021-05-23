@@ -1,0 +1,28 @@
+[paquete]
+
+nombre = "pyarch"
+version = "1-git"
+rama = "estable"
+descrip = "Un script de python para instalar archlinux"
+pagina = "https://github.com/kedap/pyarch"
+licensia = "Desconocida"
+dependencias = ["python3"]
+conflicto = "/usr/bin/pyarch.py"
+
+[pip]
+
+version = 3
+requirements = true
+file = "requirements.txt"
+
+[descarga]
+
+git = "https://github.com/kedap/pyarch"
+carpeta = "pyarch"
+sha256sum = "SALTAR"
+
+[instalacion]
+
+files = ["pyarch.py"]
+ruta = ["/usr/bin/pyarch"]
+mensaje = "Genia! Ahora ejecutalo con 'pyarch'"
