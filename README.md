@@ -7,3 +7,7 @@ git clone https://github.com/kedap/pyarch
 pip3 install colorama
 ```
 De igual manera se puede utilizar [apmpkg](https://github.com/kedap/apmpkg) con el siguiente comando:
+
+```
+apmpkg instalar -u https://raw.githubusercontent.com/Kedap/pyarch/main/pyarch.adi
+```
