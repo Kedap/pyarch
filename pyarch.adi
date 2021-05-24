@@ -12,8 +12,8 @@ conflicto = "/usr/bin/pyarch.py"
 [pip]
 
 version = 3
-requirements = true
-file = "requirements.txt"
+requirements = false
+packages = ["colorama"]
 
 [descarga]
 
